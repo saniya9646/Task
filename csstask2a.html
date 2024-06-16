@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Task2A</title>
+  <style>
+    div {
+      border: 1px solid black;
+      padding: 9px 9px 0 7px;
+      width: 202px;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 200px;
+      background-color: #afd9e7;
+    }
+
+    li a {
+      display: block;
+      color: #3851c5;
+      font-size: larger;
+      padding: 8px 16px;
+      text-decoration: none;
+    }
+
+    li a.active {
+      background-color: #fea501;
+      color: white;
+    }
+
+    li a:hover:not(.active) {
+      background-color: black;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <b><p>Vertical Navigation Bar</p></b>
+  <div>
+    <ul>
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#Java">Java</a></li>
+      <li><a href="#css">CSS</a></li>
+      <li><a href="#HTML">HTML</a></li>
+      <li><a href="#BootStrap">BootStrap</a></li>
+    </ul>
+  </div>
+
+</body>
+</html>
